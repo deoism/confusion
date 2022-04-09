@@ -4,6 +4,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
+
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
@@ -37,7 +38,9 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">Ristornate Con Fusion</a>
+        <a class="navbar-brand mr-auto" href="#"
+        ><img src="img/logo.png" height="30" width="41" /></a
+    ></a>
         <div class="collapse navbar-collapse" id="Navbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -51,7 +54,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./menu.html">
+              <a class="nav-link" href="#">
                 <span class="fa fa-list"></span> Menu
               </a>
             </li>
@@ -67,7 +70,7 @@
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
-          <div class="col-12 col-sm-6 align-items-center">
+          <div class="col-12 col-sm-6 align-items-center ">
             <h1>A Ristorante con Fusion</h1>
             <p>
               We take inspiration from the World's best cuisines, and create a
@@ -75,8 +78,10 @@
               your culinary senses!
             </p>
           </div>
-          <div class="col-12 col-sm"></div>
-        </div>
+          <div class="col-12 col-sm align-self-center">
+            <img src="img/logo.png" class="img-fluid" />
+          </div>
+        </div>  
       </div>
     </header>
 
@@ -87,16 +92,26 @@
         >
           <h3>Our Lipsmacking Culinary Creations</h3>
         </div>
-        <div
-          class="col col-sm order-sm-first col-md row-content align-items-center"
-        >
-          <h2>Uthappizza</h2>
-          <p>
-            A unique combination of Indian Uthappam (pancake) and Italian pizza,
-            topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia
-            onion, Guntur chillies and Buffalo Paneer.
-          </p>
-        </div>
+
+        <div class="col col-sm order-sm-first col-md row-content">
+            <div class="media">
+                <img
+                  class="d-flex mr-3 img-thumbnail align-self-center"
+                  src="img/uthappizza.png"
+                  alt="Uthappizza"
+                />
+                <div class="media-body">
+                  <h2 class="mt-0">Uthappizza
+                    <span class="badge badge-danger">HOT</span>
+                  <span class="badge badge-pill badge-secondary">$4.99</span>
+                </h2>
+                  <p class="d-none d-sm-block">
+                    A unique combination of Indian Uthappam (pancake) and Italian
+                    pizza, topped with Cerignola olives, ripe vine cherry tomatoes,
+                    Vidalia onion, Guntur chillies and Buffalo Paneer.
+                  </p>
+                </div>
+              </div>
       </div>
 
       <div class="row">
@@ -118,17 +133,22 @@
         <div class="col-12 col-sm-4 row-content order-sm-last col-md-3">
           <h3>Meet our Culinary Specialists</h3>
         </div>
-        <div
-          class="offset-1 col-12 col-sm-4 row-content order-sm-last col-md-3"
-        >
-          <h2>Alberto Somayya</h2>
-          <h4>Executive Chef</h4>
-          <p>
-            Award winning three-star Michelin chef with wide International
-            experience having worked closely with whos-who in the culinary
-            world, he specializes in creating mouthwatering Indo-Italian fusion
-            experiences.
-          </p>
+        <div class="media">
+          <img
+            class="d-flex mr-3 img-thumbnail align-self-center"
+            src="img/alberto.png"
+            alt="Alberto Somayya"
+          />
+          <div class="media-body">
+            <h2 class="mt-0">Alberto Somayya</h2>
+            <h4>Executive Chef</h4>
+            <p class="d-none d-sm-block">
+              Award winning three-star Michelin chef with wide International
+              experience having worked closely with whos-who in the culinary
+              world, he specializes in creating mouthwatering Indo-Italian
+              fusion experiences.
+            </p>
+          </div>
         </div>
       </div>
     </div>
